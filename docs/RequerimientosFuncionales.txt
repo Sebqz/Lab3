@@ -1,0 +1,46 @@
+Requerimientos funcionales:
+
+Nombre: R1. Agregar vehículo al concesionario. 
+Resumen: Permite al usuario agregar un vehículo al concesionario.
+Entradas: Precio base, marca, modelo, kilometraje, cilindraje y placa si es usado.
+Resultados: Se ha agregado un vehículo al concesionario.
+
+Nombre: R2. Agregar un empleado al concesionario.
+Resumen: Permite al usuario agregar un empleado al concesionario.
+Entradas: Nombre, apellido, identificador, numero de ventas.
+Resultados: Se ha agregado un empleado al concesionario.
+
+Nombre: R3. Agregar un cliente al concesionario.
+Resumen: Permite al usuario agregar y asignar un cliente a un empleado.
+Entradas: Nombre, apellido, identificador, numero de telefono, correo, identificador del empleado.
+Resultados: Se ha agregado un cliente al concesionario y se le ha asignado a un empleado.
+
+Nombre: R4. Asignar a un cliente un vehículo de interés.
+Resumen: Permite al usuario asignar a un cliente un vehículo de interés.
+Entradas: Identificador del cliente, número del vehículo. (Los muestra)
+Resultados: Se le ha asignado al cliente un vehículo de interés.
+
+Nombre: R5. Vender un automovil. 
+Resumen: Permite al usuario asignarle al automóvil un dueño y actualizar la información
+Entradas: Identificador del cliente, número del vehículo. 
+Resultados: Se ha vendido un automóvil y se ha actualizado la información.
+
+Nombre: R6. Mostrar catálogo del concesionario.
+Resumen: Permite al usuario mostrar el catálogo del concesionario
+Entradas: Filtros.
+Resultados: El catálogo del concesionario ha sido mostrado.
+
+Nombre: R7. Mostrar catálogo del parqueadero.
+Resumen: Permite al usuario mostrar el catálogo del parqueadero.
+Entradas: Año de los carros a mostrar.
+Resultados: El catálogo del parqueadero ha sido mostrado.
+
+Nombre: R8. Mostrar el catálogo de carros de interés.
+Resumen: Permite al usuario mostrar el catálogo de los carros de los que está interesado un cliente.
+Entradas: Identificador del cliente.
+Resultados: El catálogo de carros de interés ha sido mostrado.
+
+Nombre: R9. Mostrar estado del parqueadero.
+Resumen: Permite al usuario mostrar si el parqueadero está lleno para ampliarlo o tiene cupo.
+Entradas: 
+Resultados: El estado del parqueadero ha sido mostrado.
